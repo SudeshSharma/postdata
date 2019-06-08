@@ -67,8 +67,8 @@ class HomePage extends React.Component<any,IState>{
                 <h1 style={{alignSelf:"normal"}}>Welcome to viser technosys</h1>
                 <Card style={{marginTop:"5%",marginLeft:"10%",width:"80%"}}>
                 <form style={{padding:"5%,5%",marginTop:"5%",marginLeft:"5%"}} onSubmit={this.handleSubmit}>
-                    <h3>UserName</h3>
-                    <TextField variant="outlined" label="UserNAme" value={this.state.customerName} onChange={ (e:any) => this.setState({customerName:e.target.value})}/>
+                    <h3>Name</h3>
+                    <TextField variant="outlined" value={this.state.customerName} onChange={ (e:any) => this.setState({customerName:e.target.value})}/>
                     <h3>Email</h3>
                     <TextField variant="outlined" name="email" value={this.state.email} onChange= { (e:any) => this.setState({email:e.target.value})}/>
                     <h3>Customer Support Id</h3>
