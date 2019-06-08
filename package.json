@@ -1,0 +1,36 @@
+{
+  "name": "postdata",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^3.9.3",
+    "@types/react-redux": "^7.0.8",
+    "axios": "^0.18.0",
+    "history": "^4.9.0",
+    "react": "^16.8.5",
+    "react-dom": "^16.8.5",
+    "react-redux": "^6.0.1",
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "2.1.8",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-saga": "^1.0.2",
+    "redux-saga-effects": "^1.1.0",
+    "typesafe-actions": "^3.2.1",
+    "typescript": "^3.4.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
